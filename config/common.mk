@@ -26,6 +26,10 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     messaging \
 
+# Build Themes
+PRODUCT_PACKAGES += \
+    SystemDarkTheme
+
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
 
