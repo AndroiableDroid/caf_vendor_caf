@@ -33,6 +33,13 @@ PRODUCT_PACKAGES += \
     SettingsDarkTheme \
     SystemDarkTheme
 
+# Overlays
+PRODUCT_PACKAGES += \
+    DuiDark \
+    GBoardDark \
+    SettingsDark \
+    SystemDark
+
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
 
