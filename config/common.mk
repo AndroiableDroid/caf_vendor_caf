@@ -45,6 +45,31 @@ PRODUCT_PACKAGES += \
     messaging \
     Updater
 
+# Build Themes Dark
+PRODUCT_PACKAGES += \
+    GBoardDark \
+    GoogleIntelligenceSenseDark \
+    SettingsDark \
+    SettingsIntelligenceDark \
+    SystemDark \
+    SystemUiDark \
+    WellbeingDark
+
+
+
+# Build Themes Black
+PRODUCT_PACKAGES += \
+    SettingsBlackTheme \
+    SystemBlackTheme \
+    SystemUIBlackTheme
+
+# Overlays
+PRODUCT_PACKAGES += \
+    DuiDark \
+    GBoardDark \
+    SettingsDark \
+    SystemDark
+
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
 
